@@ -9,14 +9,13 @@
 </head>
 
 <body>
-    <div style="margin: 10px; padding: 10px;">
-     
-      {!! $data['body'] !!}
+  <div style="margin: 10px; padding: 10px;">
 
-      <p
-        style="box-sizing: border-box; font-family: -apple-system, position: relative; line-height: 1.5em; margin-top: 0; color: #b0adc5; font-size: 12px; text-align: center;">
-        &copy; <?php echo date ('Y'); ?>  {{$data['company_name']}}. All rights reserved.</p>
-    </div>
+    {!! $data['body'] !!}
+
+    <p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; position: relative; line-height: 1.5em; margin-top: 0; color: #b0adc5; font-size: 12px; text-align: center;">
+      &copy; <?php echo date('Y'); ?> Dev Anthony. All rights reserved.</p>
+  </div>
 </body>
 
 </html>
